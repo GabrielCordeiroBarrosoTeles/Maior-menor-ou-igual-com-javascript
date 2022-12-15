@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="container mt-5">
+                <div class="card">
+                    <div class="card-header">
+                        <legend>
+                            <b>Maior,menor ou igual?</b>
+                        </legend>
+                    </div>
+                    <div class="card-body">
+                            <fieldset> 
+                                <br>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <p>
+                                            <label>
+                                                Informe valor 1:<br>
+                                                    <div>
+                                                        <input type="text" id="v1" class="input">
+                                                    </div>
+                                            </label>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p>
+                                            <label>
+                                                Informe valor 2:<br>
+                                                    <div>
+                                                        <input type="text" id="v2" class="input">
+                                                    </div>
+                                            </label>
+                                        </p>
+                                        <br>
+                                        <button onclick="imprimir()" class="submit">Enviar</button>
+                                        <p>
+                                            <label>
+                                                Resultado:<br>
+                                                    <div>
+                                                        <input type="text" id="resultado" class="input" disabled>
+                                                    </div>
+                                            </label>
+                                        </p>
+                                    </div>  
+                                </div>
+                                    <br>
+                            </fieldset>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <script src="js/script.js"></script>
+    </body>
+</html>
